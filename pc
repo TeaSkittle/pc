@@ -12,8 +12,8 @@ if (($#ARGV + 1) == 0) { # Interactive
     }
 } elsif (($#ARGV + 1) > 0) { # Parse arguments
     if ($ARGV[0] eq "-h" || $ARGV[0] eq "--help") {
-	printf("Usage: pc \"expression\" - to evaluate an expression\n");
-	printf("       pc - to run as an interactive calculator\n");
+	printf("Usage: ./pc \"expression\" - to evaluate an expression\n");
+	printf("       ./pc - to run as an interactive calculator\n");
     } else {
 	convert();
     }
