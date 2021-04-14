@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 # perl calculator
-#
+# by: Travis Dowd
 # started: 2021-04-05
 use strict;
 use warnings;
@@ -24,4 +24,3 @@ sub convert {
     my $a = eval($string);
     printf("\t%d\t\t\t0x%x\t\t\t0b%b\n",$a,$a,$a);
 }
-
