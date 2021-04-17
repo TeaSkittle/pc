@@ -1,4 +1,6 @@
-# pc
+# THIS HAS BEEN MOVED TO MY [SCRIPTS](https://github.com/TeaSkittle/scripts) REPO!
+
+## pc
 Perl Calculator
 
 This is a very simple calculator meant for programmers. It evaluates expressions and calculates the answers in decimal, hexadeciaml, and in binary. Was inspired by [pcalc](https://vapier.github.io/pcalc/) and is written in a small amount of perl code. Can be ran as a simple interactive calculator(similar to [bc](https://www.gnu.org/software/bc/)), and can also evaluate an expression as an argument. Using redirection and tools such as xargs, pc can be useful in scripts as well.
